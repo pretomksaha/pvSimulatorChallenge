@@ -1,4 +1,4 @@
-import random
+
 
 import pika
 
@@ -10,8 +10,7 @@ class Meter():
         self.brokePort = ''
         self.brokeCredentials = pika.PlainCredentials('', '')
         self.brokerQueue=''
-        self.minWatt=0
-        self.maxWatt=9000
+
 
 
     def connection(self):
@@ -28,9 +27,7 @@ class Meter():
         except pika.exceptions.ConnectionClosedByBroker:
             print("The connection  is terminated by Broker.")
 
-    def powerGenerate(self):
-        generatePower=random.uniform(self.minWatt,self.maxWatt)
-        return generatePower
+
 
 
     def publishMassage(channel,powerValue):
