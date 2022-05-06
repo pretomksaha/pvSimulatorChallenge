@@ -1,19 +1,23 @@
+import os
 import pika
 from support import Support
+from dotenv import load_dotenv
+load_dotenv()
 
 class PVsimulator():
 
     def __init__(self):
-        self.brokeHost = 'localhost'
-        self.brokePort = ''
-        self.brokeCredentials = pika.PlainCredentials('', '')
-        self.brokerQueue=''
+        self.brokeHost = os.getenv('BROKER_HOST')
+        self.brokePort = os.getenv('BROKER_POST')
+        self.brokeCredentials = pika.PlainCredentials(os.getenv('USER_NAME'), os.getenv('PASSWORD'))
+        self.brokerQueue = os.getenv('BROKER_QUEUE')
+        self.supportFunction=Support()
 
 
     def connection(self):
         try:
             connection = pika.BlockingConnection(
-                pika.ConnectionParameters(host='localhost')
+                pika.ConnectionParameters(host=self.brokeHost)
             )
 
             channel = connection.channel()
@@ -21,15 +25,24 @@ class PVsimulator():
 
             channel.basic_consume(queue=self.brokerQueue, on_message_callback=self.receivePower, auto_ack=True)
             channel.start_consuming()
-            print('[*] waiting for messages to exit press ctrl +c')
+
         except pika.exceptions.ConnectionClosedByBroker:
-            print("The connection  is terminated by Broker.")
+            self.logger.error("The connection  is terminated by Broker.")
+        except pika.exceptions.ChannelError:
+            self.logger.error("There has an connection problem.")
+        except KeyboardInterrupt as error:
+            self.logger.info("User terminates the process")
 
 
     def receivePower(self,channel,method,properties,body):
-        powerValue= float(body)
-        pvPowerValue= Support.powerGenerate()
-        Support.writeCSC(powerValue,pvPowerValue)
-        channel.basic_ack(delivery_tag = method.delivery_tag)
+        try:
+            powerValue= float(body)
+            pvPowerValue= self.supportFunction.powerGenerate()
+            self.supportFunction.writeCSC(powerValue,pvPowerValue)
+
+        except KeyboardInterrupt as error:
+            self.logger.info("User terminates the process")
+
+
 
 

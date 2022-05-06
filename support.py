@@ -1,3 +1,4 @@
+import os
 from csv import writer
 import random
 from datetime import datetime
@@ -5,8 +6,8 @@ from datetime import datetime
 class Support():
 
     def __init__(self):
-        self.minWatt=0
-        self.maxWatt=9000
+        self.minWatt = int(os.getenv('MIN_WATTS'))
+        self.maxWatt = int(os.getenv('MAX_WATTS'))
         self.listOutput = []
 
     def powerGenerate(self):
@@ -21,7 +22,7 @@ class Support():
         self.listOutput.append(f'PV power value:{pvPowerValue} W')
         self.listOutput.append(f'The sum of the powers (meter + PV):{sumMeterPV} W')
 
-        with open('event.csv', 'a') as f_object:
+        with open('event.csv', 'a', newline='') as f_object:
             # Pass this file object to csv.writer()
             # and get a writer object
             writer_object = writer(f_object)
