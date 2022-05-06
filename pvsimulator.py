@@ -1,7 +1,7 @@
 import pika
 from support import Support
 
-class pvsimulator():
+class PVsimulator():
 
     def __init__(self):
         self.brokeHost = 'localhost'
