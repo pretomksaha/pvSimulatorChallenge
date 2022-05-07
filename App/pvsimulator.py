@@ -5,7 +5,7 @@ from support import Support
 from dotenv import load_dotenv
 load_dotenv()
 
-class Meter():
+class PVsimulator():
 
     def __init__(self):
         self.logger = logging.getLogger("log.log")
@@ -13,8 +13,7 @@ class Meter():
         self.brokePort = os.getenv('BROKER_POST')
         self.brokeCredentials = pika.PlainCredentials(os.getenv('USER_NAME'), os.getenv('PASSWORD'))
         self.brokerQueue = os.getenv('BROKER_QUEUE')
-        self.supportFunction = Support()
-
+        self.supportFunction=Support()
 
 
     def connection(self):
@@ -25,27 +24,29 @@ class Meter():
 
             channel = connection.channel()
             channel.queue_declare(queue=self.brokerQueue)
-            channel.confirm_delivery()
-            self.logger.info("Connection established")
-            powerValue= self.supportFunction.powerGenerate()
-            self.publishMassage(channel,powerValue)
+
+            channel.basic_consume(queue=self.brokerQueue, on_message_callback=self.receivePower, auto_ack=True)
+            channel.start_consuming()
         except pika.exceptions.ConnectionClosedByBroker:
             self.logger.error("The connection  is terminated by Broker.")
         except pika.exceptions.ChannelError:
             self.logger.error("There has an connection problem.")
         except KeyboardInterrupt as error:
+            channel.stop_consuming()
+            connection.close()
             self.logger.info("User terminates the process")
 
 
-
-
-
-    def publishMassage(self,channel,powerValue):
+    def receivePower(self,channel,method,properties,body):
         try:
-            channel.basic_publish(exchange='',routing_key=self.brokerQueue,body=f"{powerValue}",mandatory=True,properties=pika.BasicProperties( delivery_mode = 2, ))
-            channel.close()
+            self.logger.info("Massage received.")
+            powerValue= float(body)
+            pvPowerValue= self.supportFunction.powerGenerate()
+            self.supportFunction.writeCSC(powerValue,pvPowerValue)
 
-        except pika.exceptions.UnroutableError:
-            self.logger.error("Massage can not be send.")
         except KeyboardInterrupt as error:
             self.logger.info("User terminates the process")
+
+
+
+
