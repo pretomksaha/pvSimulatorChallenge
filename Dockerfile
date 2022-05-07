@@ -11,5 +11,6 @@ WORKDIR /code/
 COPY requirements.txt .
 RUN pip install --upgrade pip
 RUN python3 -m pip install -r requirements.txt
+
 COPY . ./code
 CMD ["python", "-m", "App/main.py"]
