@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3"
 services:
   rabbitmq-server:
     container_name: rabbitmq
@@ -9,7 +9,9 @@ services:
 
   meter:
     build: .
-    command: python -m main.py meter
+    volumes:
+      - ./:/code
+    command: python App/main.py meter
     links:
       - "rabbitmq-server:rabbitmq-server"
     depends_on:
@@ -17,7 +19,9 @@ services:
 
   pv_simulator:
     build: .
-    command: python -m main.py pv_simulator
+    volumes:
+      - ./:/code
+    command: python App/main.py pv_simulator
     links:
       - "rabbitmq-server:rabbitmq-server"
     depends_on:
