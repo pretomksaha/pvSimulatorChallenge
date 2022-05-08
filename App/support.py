@@ -16,6 +16,7 @@ class Support():
         self.maxWatt = int(os.getenv('MAX_WATTS'))
         self.listOutput = []
         self.csvHeader = ['timestamp','meter power value','PV power value','The sum of the powers (meter + PV)']
+        self.outputFile='records.csv'
 
     def powerGenerate(self):
         """
@@ -39,8 +40,8 @@ class Support():
             self.listOutput.append(pvPowerValue)
             self.listOutput.append(sumMeterPV)
             self.logger.info("Massage start to store on CSV")
-            if not os.path.exists('records.csv'):
-                with open('records.csv', 'a', newline='') as header_object:
+            if not os.path.exists(self.outputFile):
+                with open(self.outputFile, 'a', newline='') as header_object:
                     # Pass this file object to csv.writer()
                     # and get a writer object
                     writer_object = writer(header_object)
@@ -52,7 +53,7 @@ class Support():
                     # Close the file object
                     header_object.close()
 
-            with open('records.csv', 'a', newline='') as f_object:
+            with open(self.outputFile, 'a', newline='') as f_object:
                 # Pass this file object to csv.writer()
                 # and get a writer object
                 writer_object = writer(f_object)

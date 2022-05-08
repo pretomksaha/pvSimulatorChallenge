@@ -1,7 +1,7 @@
 import logging
 import os
 import pika
-from support import Support
+from App.support import Support
 from dotenv import load_dotenv
 load_dotenv()
 
