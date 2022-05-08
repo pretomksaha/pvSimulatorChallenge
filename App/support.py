@@ -11,12 +11,12 @@ class Support():
     """
 
     def __init__(self):
-        self.logger = logging.getLogger("log.log")
+        self.logger = logging.getLogger("../log.log")
         self.minWatt = int(os.getenv('MIN_WATTS'))
         self.maxWatt = int(os.getenv('MAX_WATTS'))
         self.listOutput = []
         self.csvHeader = ['timestamp','meter power value','PV power value','The sum of the powers (meter + PV)']
-        self.outputFile='records.csv'
+        self.outputFile='../records.csv'
 
     def powerGenerate(self):
         """
@@ -65,6 +65,7 @@ class Support():
                 # Close the file object
                 f_object.close()
                 self.logger.info("Massage stored on CSV successfully")
+                self.listOutput=[]
 
         except:
             self.logger.error("Massage can not store on CSV")

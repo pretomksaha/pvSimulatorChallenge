@@ -1,7 +1,7 @@
 import logging
 import os
 import pika
-from App.support import Support
+from support import Support
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -11,7 +11,7 @@ class PVsimulator():
     generate PV power value and store in csv file.
     """
     def __init__(self):
-        self.logger = logging.getLogger("log.log")
+        self.logger = logging.getLogger("../log.log")
         self.brokeHost = os.getenv('BROKER_HOST')
         self.brokePort = os.getenv('BROKER_POST')
         self.brokeCredentials = pika.PlainCredentials(os.getenv('USER_NAME'), os.getenv('PASSWORD'))
@@ -29,6 +29,7 @@ class PVsimulator():
                 pika.ConnectionParameters(host=self.brokeHost,port=self.brokePort,credentials=self.brokeCredentials)
             )
             channel = connection.channel()
+            channel.basic_qos(prefetch_count=1)
             channel.queue_declare(queue=self.brokerQueue)
             channel.basic_consume(queue=self.brokerQueue, on_message_callback=self.receivePower, auto_ack=True)
             channel.start_consuming()

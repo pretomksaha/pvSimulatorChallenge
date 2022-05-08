@@ -26,10 +26,12 @@ def main():
     Main function configure log file and call (meter, simulator)
     :return:
     """
-    logging.basicConfig(filename='log.log', filemode="a", level=logging.INFO,
+    logging.basicConfig(filename='../log.log', filemode="a", level=logging.INFO,
                         format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+
     meter()
     pv_simulator()
+
 
 
 if __name__ == "__main__":
