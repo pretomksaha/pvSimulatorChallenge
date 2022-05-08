@@ -1,0 +1,1176 @@
+05/08/2022 06:52:18 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:52:18 PM [INFO] Socket connected: <socket.socket fd=564, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4002, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:52:18 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E715B3A0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E715B3A0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:52:18 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E715B3A0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:18 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E715B3A0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:18 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E715B3A0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:18 PM [INFO] Created channel=1
+05/08/2022 06:52:18 PM [INFO] Connection established
+05/08/2022 06:52:26 PM [INFO] User terminates the process
+05/08/2022 06:52:26 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:52:26 PM [INFO] Socket connected: <socket.socket fd=604, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4005, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:52:26 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E71A11C0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E71A11C0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:52:26 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E71A11C0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:26 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E71A11C0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:26 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E71A11C0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:26 PM [INFO] Created channel=1
+05/08/2022 06:52:26 PM [WARNING] Received remote Channel.Close (406): "PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'Massage' in vhost '/': received 'true' but current is 'false'" on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001B7E71A11C0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+05/08/2022 06:52:50 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:52:50 PM [INFO] Socket connected: <socket.socket fd=536, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4009, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:52:50 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FE896D0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FE896D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:52:50 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FE896D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:50 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FE896D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:50 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FE896D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:52:50 PM [INFO] Created channel=1
+05/08/2022 06:52:50 PM [INFO] Connection established
+05/08/2022 06:53:05 PM [INFO] User terminates the process
+05/08/2022 06:53:05 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:53:05 PM [INFO] Socket connected: <socket.socket fd=592, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4012, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:53:05 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FEA2EE0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FEA2EE0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:53:05 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FEA2EE0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:05 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FEA2EE0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:05 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FEA2EE0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:05 PM [INFO] Created channel=1
+05/08/2022 06:53:05 PM [WARNING] Received remote Channel.Close (406): "PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'Massage' in vhost '/': received 'true' but current is 'false'" on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001F26FEA2EE0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+05/08/2022 06:53:36 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:53:36 PM [INFO] Socket connected: <socket.socket fd=656, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4018, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:53:36 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A48A6D0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A48A6D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:53:36 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A48A6D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:36 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A48A6D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:36 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A48A6D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:36 PM [INFO] Created channel=1
+05/08/2022 06:53:36 PM [INFO] Connection established
+05/08/2022 06:53:44 PM [INFO] User terminates the process
+05/08/2022 06:53:44 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:53:44 PM [INFO] Socket connected: <socket.socket fd=688, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4021, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:53:44 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A4A2EB0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A4A2EB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:53:44 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A4A2EB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:44 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A4A2EB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:44 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A4A2EB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:53:44 PM [INFO] Created channel=1
+05/08/2022 06:53:44 PM [WARNING] Received remote Channel.Close (406): "PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'Massage' in vhost '/': received 'true' but current is 'false'" on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000002890A4A2EB0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+05/08/2022 06:54:30 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:54:30 PM [INFO] Socket connected: <socket.socket fd=292, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4028, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:54:30 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B0CC2E0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B0CC2E0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:54:30 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B0CC2E0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:54:30 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B0CC2E0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:54:30 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B0CC2E0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:54:30 PM [INFO] Created channel=1
+05/08/2022 06:54:30 PM [INFO] Connection established
+05/08/2022 06:54:37 PM [INFO] User terminates the process
+05/08/2022 06:54:37 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:54:37 PM [INFO] Socket connected: <socket.socket fd=284, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4031, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:54:37 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B1122B0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B1122B0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:54:37 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B1122B0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:54:37 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B1122B0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:54:37 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001EE4B1122B0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:54:37 PM [INFO] Created channel=1
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:37 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:37 PM [INFO] Massage received.
+05/08/2022 06:54:37 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:54:38 PM [INFO] Massage received.
+05/08/2022 06:54:38 PM [INFO] Massage start to store on CSV
+05/08/2022 06:54:38 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:55:37 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:55:37 PM [INFO] Socket connected: <socket.socket fd=556, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4040, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:55:37 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80AA6D0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80AA6D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:55:37 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80AA6D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:37 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80AA6D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:37 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80AA6D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:37 PM [INFO] Created channel=1
+05/08/2022 06:55:37 PM [INFO] Connection established
+05/08/2022 06:55:40 PM [INFO] User terminates the process
+05/08/2022 06:55:40 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:55:40 PM [INFO] Socket connected: <socket.socket fd=572, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4043, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:55:40 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80C2F10>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80C2F10> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:55:40 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80C2F10> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:40 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80C2F10> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:40 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000146E80C2F10> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:40 PM [INFO] Created channel=1
+05/08/2022 06:55:40 PM [INFO] Massage received.
+05/08/2022 06:55:40 PM [INFO] Massage start to store on CSV
+05/08/2022 06:55:40 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:55:40 PM [INFO] Massage received.
+05/08/2022 06:55:40 PM [INFO] Massage start to store on CSV
+05/08/2022 06:55:40 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:55:52 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:55:52 PM [INFO] Socket connected: <socket.socket fd=516, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4047, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:55:52 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E096A0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E096A0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:55:52 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E096A0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:52 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E096A0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:52 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E096A0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:55:52 PM [INFO] Created channel=1
+05/08/2022 06:55:52 PM [INFO] Connection established
+05/08/2022 06:56:15 PM [INFO] User terminates the process
+05/08/2022 06:56:15 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 06:56:15 PM [INFO] Socket connected: <socket.socket fd=336, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::1', 4053, 0, 0), raddr=('::1', 5672, 0, 0)>
+05/08/2022 06:56:15 PM [INFO] Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E22DF0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E22DF0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+05/08/2022 06:56:15 PM [INFO] AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E22DF0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:56:15 PM [INFO] AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E22DF0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:56:15 PM [INFO] Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000264F9E22DF0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+05/08/2022 06:56:15 PM [INFO] Created channel=1
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 06:56:15 PM [INFO] Massage received.
+05/08/2022 06:56:15 PM [INFO] Massage start to store on CSV
+05/08/2022 06:56:15 PM [INFO] Massage stored on CSV successfully
+05/08/2022 07:43:07 PM [INFO] Pika version 1.2.1 connecting to ('127.0.0.1', 5672)
+05/08/2022 07:43:07 PM [ERROR] Socket failed to connect: <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 60042)>; error=111 (Connection refused)
+05/08/2022 07:43:07 PM [ERROR] TCP Connection attempt failed: ConnectionRefusedError(111, 'Connection refused'); dest=(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672))
+05/08/2022 07:43:07 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:43:07 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 07:43:07 PM [ERROR] <socket.socket fd=7, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::', 0, 0, 0)>.connect(('::1', 5672, 0, 0)) failed: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:43:07 PM [ERROR] TCP Connection attempt failed: OSError(99, 'Cannot assign requested address'); dest=(<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+05/08/2022 07:43:07 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:43:07 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused').
+05/08/2022 07:43:07 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:43:07 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:43:07 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.AMQPConnectionError
+05/08/2022 07:50:11 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 07:50:11 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 07:50:11 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 07:50:11 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 07:50:11 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 07:50:11 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+05/08/2022 07:51:14 PM [INFO] Pika version 1.2.1 connecting to ('127.0.0.1', 5672)
+05/08/2022 07:51:14 PM [ERROR] Socket failed to connect: <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 60104)>; error=111 (Connection refused)
+05/08/2022 07:51:14 PM [ERROR] TCP Connection attempt failed: ConnectionRefusedError(111, 'Connection refused'); dest=(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672))
+05/08/2022 07:51:14 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:51:14 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 07:51:14 PM [ERROR] <socket.socket fd=7, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::', 0, 0, 0)>.connect(('::1', 5672, 0, 0)) failed: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:51:14 PM [ERROR] TCP Connection attempt failed: OSError(99, 'Cannot assign requested address'); dest=(<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+05/08/2022 07:51:14 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:51:14 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused').
+05/08/2022 07:51:14 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:51:14 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:51:14 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.AMQPConnectionError
+05/08/2022 07:51:23 PM [INFO] Pika version 1.2.1 connecting to ('127.0.0.1', 5672)
+05/08/2022 07:51:23 PM [ERROR] Socket failed to connect: <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 60112)>; error=111 (Connection refused)
+05/08/2022 07:51:23 PM [ERROR] TCP Connection attempt failed: ConnectionRefusedError(111, 'Connection refused'); dest=(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672))
+05/08/2022 07:51:23 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:51:23 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 07:51:23 PM [ERROR] <socket.socket fd=7, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::', 0, 0, 0)>.connect(('::1', 5672, 0, 0)) failed: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:51:23 PM [ERROR] TCP Connection attempt failed: OSError(99, 'Cannot assign requested address'); dest=(<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+05/08/2022 07:51:23 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:51:23 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused').
+05/08/2022 07:51:23 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:51:23 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:51:23 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.AMQPConnectionError
+05/08/2022 07:52:03 PM [INFO] Pika version 1.2.1 connecting to ('127.0.0.1', 5672)
+05/08/2022 07:52:03 PM [ERROR] Socket failed to connect: <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 60128)>; error=111 (Connection refused)
+05/08/2022 07:52:03 PM [ERROR] TCP Connection attempt failed: ConnectionRefusedError(111, 'Connection refused'); dest=(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672))
+05/08/2022 07:52:03 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:03 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 07:52:03 PM [ERROR] <socket.socket fd=7, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::', 0, 0, 0)>.connect(('::1', 5672, 0, 0)) failed: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:52:03 PM [ERROR] TCP Connection attempt failed: OSError(99, 'Cannot assign requested address'); dest=(<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+05/08/2022 07:52:03 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:52:03 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused').
+05/08/2022 07:52:03 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:03 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:03 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.AMQPConnectionError
+05/08/2022 07:52:12 PM [INFO] Pika version 1.2.1 connecting to ('127.0.0.1', 5672)
+05/08/2022 07:52:12 PM [ERROR] Socket failed to connect: <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 60132)>; error=111 (Connection refused)
+05/08/2022 07:52:12 PM [ERROR] TCP Connection attempt failed: ConnectionRefusedError(111, 'Connection refused'); dest=(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672))
+05/08/2022 07:52:12 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:12 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 07:52:12 PM [ERROR] <socket.socket fd=7, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::', 0, 0, 0)>.connect(('::1', 5672, 0, 0)) failed: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:52:12 PM [ERROR] TCP Connection attempt failed: OSError(99, 'Cannot assign requested address'); dest=(<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+05/08/2022 07:52:12 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:52:12 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused').
+05/08/2022 07:52:12 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:12 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:12 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.AMQPConnectionError
+05/08/2022 07:52:21 PM [INFO] Pika version 1.2.1 connecting to ('127.0.0.1', 5672)
+05/08/2022 07:52:21 PM [ERROR] Socket failed to connect: <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 60136)>; error=111 (Connection refused)
+05/08/2022 07:52:21 PM [ERROR] TCP Connection attempt failed: ConnectionRefusedError(111, 'Connection refused'); dest=(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('127.0.0.1', 5672))
+05/08/2022 07:52:21 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:21 PM [INFO] Pika version 1.2.1 connecting to ('::1', 5672, 0, 0)
+05/08/2022 07:52:21 PM [ERROR] <socket.socket fd=7, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_STREAM, proto=6, laddr=('::', 0, 0, 0)>.connect(('::1', 5672, 0, 0)) failed: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:52:21 PM [ERROR] TCP Connection attempt failed: OSError(99, 'Cannot assign requested address'); dest=(<AddressFamily.AF_INET6: 10>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('::1', 5672, 0, 0))
+05/08/2022 07:52:21 PM [ERROR] AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address')
+05/08/2022 07:52:21 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused').
+05/08/2022 07:52:21 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:21 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 2 exceptions in all; last exception - AMQPConnectorSocketConnectError: OSError(99, 'Cannot assign requested address'); first exception - AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
+05/08/2022 07:52:21 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+pika.exceptions.AMQPConnectionError
+05/08/2022 08:02:13 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 08:02:13 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 08:02:13 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 08:02:13 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:02:13 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:02:13 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+05/08/2022 08:02:18 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 08:02:18 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 08:02:18 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 08:02:18 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:02:18 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:02:18 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+05/08/2022 08:17:29 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 08:17:29 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 08:17:29 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 08:17:29 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:17:29 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:17:29 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+05/08/2022 08:19:12 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 08:19:12 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 08:19:12 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 08:19:12 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:19:12 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:19:12 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+05/08/2022 08:20:29 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 08:20:29 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 08:20:29 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 08:20:29 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:20:29 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:20:29 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+05/08/2022 08:26:16 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 08:26:16 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 08:26:16 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 08:26:16 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:26:16 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:26:16 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.8/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+05/08/2022 08:32:41 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 08:32:41 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 08:32:41 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 08:32:41 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:32:41 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:32:41 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.9/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+05/08/2022 08:52:47 PM [ERROR] Address resolution failed: gaierror(-2, 'Name or service not known')
+05/08/2022 08:52:47 PM [ERROR] getaddrinfo failed: gaierror(-2, 'Name or service not known').
+05/08/2022 08:52:47 PM [ERROR] AMQP connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None.
+05/08/2022 08:52:47 PM [ERROR] AMQPConnectionWorkflow - reporting failure: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:52:47 PM [ERROR] Connection workflow failed: AMQPConnectionWorkflowFailed: 1 exceptions in all; last exception - gaierror(-2, 'Name or service not known'); first exception - None
+05/08/2022 08:52:47 PM [ERROR] Error in _create_connection().
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+    raise self._reap_last_connection_workflow_error(error)
+  File "/usr/local/lib/python3.9/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+    result = socket.getaddrinfo(self._host, self._port, self._family,
+  File "/usr/local/lib/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known

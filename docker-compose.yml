@@ -1,0 +1,33 @@
+version: '3.4'
+
+services:
+  rabbitmq-server:
+    container_name: rabbitmq_1
+    image: rabbitmq:3-management
+    ports:
+      - 5674:5672
+      - 15674:15672
+    expose:
+      - 5672
+      - 15672
+
+  pvsimulatorchallenge:
+    image: pvsimulatorchallenge
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    environment:
+      - BROKER_HOST = rabbit
+      - BROKER_POST = 5672
+      - BROKER_QUEUE = Massage
+      - MIN_WATTS = 0
+      - MAX_WATTS = 9000
+      - USER_NAME = guest
+      - PASSWORD = guest
+    command: python App/main.py
+    links:
+      - "rabbitmq-server:rabbitmq-server"
+    depends_on:
+      - "rabbitmq-server"
+
